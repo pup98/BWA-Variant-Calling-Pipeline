@@ -1,8 +1,5 @@
 # BWA-Variant-Calling-Pipeline
 
-
-### Steps are indicated with '#' symbol: 
-
 ### Download and dump the fastq file: sample2: SRR24927860, sample1: SRR24927859
 
 prefetch -v SRAID
