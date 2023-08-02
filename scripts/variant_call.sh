@@ -3,19 +3,19 @@
 
 start=$SECONDS
 
-ref="/home/test/users/ujjwal/Basesolve/hg38/hg38.fa"
+ref="/home/test/users/ujjwal/new_project/hg38/hg38.fa"
 reads="/home/test/users/ujjwal/new_project/data"
 output="/home/test/users/ujjwal/new_project/output_files"
 variant="/home/test/users/ujjwal/new_project/variant_files"
 
 # Alignment
 
-/home/test/users/ujjwal/Basesolve/bwa/bwa index ${ref}
+/home/test/users/ujjwal/new_project/bwa/bwa index ${ref}
 
 # sample 1
-/home/test/users/ujjwal/Basesolve/bwa/bwa mem ${ref} ${reads}/sample1_1.fastq ${reads}/sample1_2.fastq > ${output}/sample1.sam
+/home/test/users/ujjwal/new_project/bwa/bwa mem ${ref} ${reads}/sample1_1.fastq ${reads}/sample1_2.fastq > ${output}/sample1.sam
 # sample 2
-/home/test/users/ujjwal/Basesolve/bwa/bwa mem ${ref} ${reads}/sample2_1.fastq ${reads}/sample2_2.fastq > ${output}/sample2.sam
+/home/test/users/ujjwal/new_project/bwa/bwa mem ${ref} ${reads}/sample2_1.fastq ${reads}/sample2_2.fastq > ${output}/sample2.sam
 
 # conver to bam
 samtools view ${output}/sample1.sam -o ${output}/sample1.bam
