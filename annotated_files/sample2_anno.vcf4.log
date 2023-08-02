@@ -1,9 +1,0 @@
-ANNOVAR Version:
-	$Date: 2018-04-16 00:43:31 -0400 (Mon, 16 Apr 2018) $
-ANNOVAR Information:
-	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
-ANNOVAR Command:
-	/home/ngs/Tools/annovar/annotate_variation.pl -geneanno /home/test/users/ujjwal/new_project/annotated_files/sample2_anno.vcf4 -buildver hg19 /home/ngs/Tools/humandb/
-ANNOVAR Started:
-	Wed Aug  2 13:20:09 2023
-NOTICE: Output files were written to /home/test/users/ujjwal/new_project/annotated_files/sample2_anno.vcf4.variant_function, /home/test/users/ujjwal/new_project/annotated_files/sample2_anno.vcf4.exonic_variant_function
