@@ -235,16 +235,17 @@ Runtime.totalMemory()=71303168
 
 1. sample1: snp
 
+Only SNPs will be reported
 Min coverage:	10
 Min reads2:	4
 Min var freq:	0.2
 Min avg qual:	0
 P-value thresh:	0.99
 Reading input from /home/test/users/ujjwal/new_project/output_files/sample1.mpileup.bam
-31515299 bases in pileup file
-23 variant positions (23 SNP, 0 indel)
+29959599 bases in pileup file
+51 variant positions (51 SNP, 0 indel)
 0 were failed by the strand-filter
-23 variant positions reported (23 SNP, 0 indel)
+51 variant positions reported (51 SNP, 0 indel)
 
 2. sample2: snp
 
@@ -255,11 +256,10 @@ Min var freq:	0.2
 Min avg qual:	0
 P-value thresh:	0.99
 Reading input from /home/test/users/ujjwal/new_project/output_files/sample2.mpileup.bam
-32044128 bases in pileup file
-12 variant positions (11 SNP, 1 indel)
+30523940 bases in pileup file
+52 variant positions (51 SNP, 1 indel)
 0 were failed by the strand-filter
-
-11 variant positions reported (11 SNP, 0 indel)
+51 variant positions reported (51 SNP, 0 indel)
 
 3. sample1: indel
 
@@ -270,13 +270,13 @@ Min var freq:	0.2
 Min avg qual:	0
 P-value thresh:	0.99
 Reading input from /home/test/users/ujjwal/new_project/output_files/sample1.mpileup.bam
-31515299 bases in pileup file
-23 variant positions (23 SNP, 0 indel)
+29959599 bases in pileup file
+51 variant positions (51 SNP, 0 indel)
 0 were failed by the strand-filter
 0 variant positions reported (0 SNP, 0 indel)
 
-4. sample2: indel
-
+5. sample2: indel
+   
 Only indels will be reported
 Min coverage:	10
 Min reads2:	4
@@ -284,10 +284,11 @@ Min var freq:	0.2
 Min avg qual:	0
 P-value thresh:	0.99
 Reading input from /home/test/users/ujjwal/new_project/output_files/sample2.mpileup.bam
-32044128 bases in pileup file
-12 variant positions (11 SNP, 1 indel)
+30523940 bases in pileup file
+52 variant positions (51 SNP, 1 indel)
 0 were failed by the strand-filter
 1 variant positions reported (0 SNP, 1 indel)
+Elapsed time: 5min 25sec
 
 ### Find common variants using awk scripting
 
