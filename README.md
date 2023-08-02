@@ -31,6 +31,57 @@ fastqc -t 2 sample1_1.fastq sample1_2.fastq
 
 * make
 
+### Marked Duplicates metrics
+
+### Markdup Metrics
+
+1. INFO	2023-08-02 12:37:27	MarkDuplicates	Start of doWork freeMemory: 203004320; totalMemory: 209715200; maxMemory: 32178700288
+INFO	2023-08-02 12:37:27	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2023-08-02 12:37:27	MarkDuplicates	Will retain up to 116589493 data points before spilling to disk.
+WARNING	2023-08-02 12:37:28	AbstractOpticalDuplicateFinderCommandLineProgram	A field field parsed out of a read name was expected to contain an integer and did not. Read name: SRR24927859.7689300. Cause: String 'SRR24927859.7689300' did not start with a parsable number.
+INFO	2023-08-02 12:37:33	MarkDuplicates	Read 402220 records. 0 pairs never matched.
+INFO	2023-08-02 12:37:33	MarkDuplicates	After buildSortedReadEndLists freeMemory: 820722792; totalMemory: 1811939328; maxMemory: 32178700288
+INFO	2023-08-02 12:37:33	MarkDuplicates	Will retain up to 1005584384 duplicate indices before spilling to disk.
+INFO	2023-08-02 12:37:38	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2023-08-02 12:37:39	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2023-08-02 12:37:39	MarkDuplicates	Sorting list of duplicate records.
+INFO	2023-08-02 12:37:39	MarkDuplicates	After generateDuplicateIndexes freeMemory: 5571728976; totalMemory: 13631488000; maxMemory: 32178700288
+INFO	2023-08-02 12:37:39	MarkDuplicates	Marking 327 records as duplicates.
+INFO	2023-08-02 12:37:39	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2023-08-02 12:37:39	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2023-08-02 12:37:48	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2023-08-02 12:37:48	MarkDuplicates	Duplicate Index cleanup.
+INFO	2023-08-02 12:37:48	MarkDuplicates	Getting Memory Stats.
+INFO	2023-08-02 12:37:48	MarkDuplicates	Before output close freeMemory: 340882552; totalMemory: 352321536; maxMemory: 32178700288
+INFO	2023-08-02 12:37:48	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2023-08-02 12:37:49	MarkDuplicates	After output close freeMemory: 131765832; totalMemory: 142606336; maxMemory: 32178700288
+[Wed Aug 02 12:37:49 IST 2023] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 0.37 minutes.
+Runtime.totalMemory()=142606336
+
+2. INFO	2023-08-02 12:37:50	MarkDuplicates	Start of doWork freeMemory: 203004432; totalMemory: 209715200; maxMemory: 32178700288
+INFO	2023-08-02 12:37:50	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2023-08-02 12:37:50	MarkDuplicates	Will retain up to 116589493 data points before spilling to disk.
+WARNING	2023-08-02 12:37:51	AbstractOpticalDuplicateFinderCommandLineProgram	A field field parsed out of a read name was expected to contain an integer and did not. Read name: SRR24927860.67894. Cause: String 'SRR24927860.67894' did not start with a parsable number.
+INFO	2023-08-02 12:37:54	MarkDuplicates	Read 400924 records. 0 pairs never matched.
+INFO	2023-08-02 12:37:55	MarkDuplicates	After buildSortedReadEndLists freeMemory: 791229104; totalMemory: 1782579200; maxMemory: 32178700288
+INFO	2023-08-02 12:37:55	MarkDuplicates	Will retain up to 1005584384 duplicate indices before spilling to disk.
+INFO	2023-08-02 12:38:00	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2023-08-02 12:38:00	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2023-08-02 12:38:00	MarkDuplicates	Sorting list of duplicate records.
+INFO	2023-08-02 12:38:01	MarkDuplicates	After generateDuplicateIndexes freeMemory: 5504720816; totalMemory: 13564379136; maxMemory: 32178700288
+INFO	2023-08-02 12:38:01	MarkDuplicates	Marking 318 records as duplicates.
+INFO	2023-08-02 12:38:01	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2023-08-02 12:38:01	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2023-08-02 12:38:09	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2023-08-02 12:38:09	MarkDuplicates	Duplicate Index cleanup.
+INFO	2023-08-02 12:38:09	MarkDuplicates	Getting Memory Stats.
+INFO	2023-08-02 12:38:10	MarkDuplicates	Before output close freeMemory: 198310880; totalMemory: 209715200; maxMemory: 32178700288
+INFO	2023-08-02 12:38:10	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2023-08-02 12:38:10	MarkDuplicates	After output close freeMemory: 61397616; totalMemory: 71303168; maxMemory: 32178700288
+[Wed Aug 02 12:38:10 IST 2023] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 0.34 minutes.
+Runtime.totalMemory()=71303168
+
+
 
 ### Allignment metrics
 
