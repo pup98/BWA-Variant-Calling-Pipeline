@@ -33,8 +33,6 @@ fastqc -t 2 sample1_1.fastq sample1_2.fastq
 
 ### Marked Duplicates metrics
 
-### Markdup Metrics
-
 1. INFO	2023-08-02 12:37:27	MarkDuplicates	Start of doWork freeMemory: 203004320; totalMemory: 209715200; maxMemory: 32178700288
 INFO	2023-08-02 12:37:27	MarkDuplicates	Reading input file and constructing read end information.
 INFO	2023-08-02 12:37:27	MarkDuplicates	Will retain up to 116589493 data points before spilling to disk.
